@@ -103,7 +103,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn
 Clone the repository.
 
 ```bash
-git clone https://github.com/<your-github-username>/part2-supervised-learning.git
+git clone https://github.com/dhriyanaresh23/part2-machine-learning.git
 ```
 
 ### Step 2
@@ -111,7 +111,7 @@ git clone https://github.com/<your-github-username>/part2-supervised-learning.gi
 Navigate to the project directory.
 
 ```bash
-cd part2-supervised-learning
+cd part2-machine-learning
 ```
 
 ### Step 3
@@ -135,7 +135,7 @@ jupyter notebook
 Open the notebook:
 
 ```text
-part2_model.ipynb
+part2_machine_learning.ipynb
 ```
 
 ### Step 6
@@ -170,18 +170,18 @@ If environment variables are required in future versions, they should be stored 
 
 ## Outputs Generated
 
-The notebook generates the following output:
+The notebook generates the following outputs:
 
 - ROC Curve (`roc_curve.png`)
-- Regression evaluation metrics
+- Regression evaluation metrics (MSE and R²)
 - Linear Regression coefficient table
 - Ridge Regression comparison
 - Confusion Matrix
 - Classification Report
-- Accuracy, Precision, Recall, F1-score and AUC
-- Threshold sensitivity analysis
+- Accuracy, Precision, Recall, F1-score, and AUC score
+- Decision-threshold sensitivity table
 - Bootstrap confidence interval results
-
+- 
 ## Task 1 – Load cleaned_data.csv
 
 ### Objective
