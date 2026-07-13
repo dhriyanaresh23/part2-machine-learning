@@ -401,7 +401,7 @@ The Ridge Regression model achieved a **lower Mean Squared Error (2.11 × 10⁹)
 
 ### Objective
 
-The objective of this task is to train and evaluate a Logistic Regression model for binary classification, assess its performance using multiple evaluation metrics, analyse the ROC curve and AUC score, and study the effect of different decision thresholds on classification performance.
+The objective of this task is to train and evaluate a Logistic Regression model for binary classification, assess its performance using multiple evaluation metrics, analyse the ROC curve and AUC score.
 
 ### Implementation
 
