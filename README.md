@@ -181,7 +181,7 @@ The notebook generates the following outputs:
 - Accuracy, Precision, Recall, F1-score, and AUC score
 - Decision-threshold sensitivity table
 - Bootstrap confidence interval results
-- 
+  
 ## Task 1 – Load cleaned_data.csv
 
 ### Objective
@@ -681,7 +681,7 @@ Therefore, the improvement of the **C = 0.01** model is considered reliable and 
 
 ### Result
 
-Bootstrap analysis using **500 samples** produced a mean AUC difference of **-0.014824** with a **95% confidence interval of [-0.030090, -0.002388]**. Because the confidence interval **does not include zero**, the difference in model performance is statistically reliable. The results demonstrate that the Logistic Regression model with **C = 0.01** consistently outperformed the baseline model (**C = 1.0**) on this dataset.
+Bootstrap analysis using **500 bootstrap samples** produced a mean AUC difference of **-0.014824** with a **95% confidence interval of [-0.030090, -0.002388]**. Because the confidence interval **does not include zero**, the difference in model performance is statistically reliable. The results demonstrate that the Logistic Regression model with **C = 0.01** consistently outperformed the baseline model (**C = 1.0**) on this dataset.
 
 # Part 2 Summary
 
