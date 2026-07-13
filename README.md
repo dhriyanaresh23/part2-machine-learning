@@ -430,8 +430,6 @@ Model performance was evaluated using:
 - ROC Curve
 - Area Under the ROC Curve (AUC)
 
-Decision-threshold sensitivity analysis was also performed by varying the classification threshold from **0.30 to 0.70**.
-
 ### Results
 
 #### Class Distribution
@@ -498,15 +496,9 @@ The ROC curve lies close to the upper-left corner of the graph, indicating that 
 
 The model achieved an **AUC score of 0.9663**, indicating excellent discriminative ability. An AUC close to 1.0 means that the model can effectively distinguish between houses with sale prices above the median and those at or below the median.
 
-#### Decision Threshold Interpretation
-
-Increasing the decision threshold improved Precision while maintaining a high Recall. Among the evaluated thresholds, **0.70** produced the highest F1-score, providing the best balance between Precision and Recall.
-
-Increasing the threshold reduces false positive predictions but may increase false negatives. Conversely, lowering the threshold increases Recall but may reduce Precision by producing more false positives.
-
 ### Result
 
-The Logistic Regression model achieved an overall **Accuracy of 94%**, **Precision of 94%**, **Recall of 94%**, **F1-score of 94%**, and an **AUC score of 0.9663**. Since the dataset was already balanced, no class imbalance treatment was necessary. The ROC curve demonstrated excellent classification performance, and a decision threshold of **0.70** produced the highest F1-score, providing the best balance between Precision and Recall.
+The Logistic Regression model achieved an overall **Accuracy of 94%**, **Precision of 94%**, **Recall of 94%**, **F1-score of 94%**, and an **AUC score of 0.9663**. Since the dataset was already balanced, no class imbalance treatment was necessary. The ROC curve demonstrated excellent classification performance, and the model showed excellent ability to distinguish between the two classes.
 
 ## Task 5(b) – Decision-Threshold Sensitivity
 
@@ -567,6 +559,12 @@ Recall measures the proportion of actual positive instances that are correctly i
 #### Threshold that Maximises F1-score
 
 Among the evaluated thresholds, **0.70** produced the highest F1-score (**0.9403**). This threshold provides the best balance between Precision and Recall for this dataset.
+
+#### Decision Threshold Interpretation
+
+Increasing the decision threshold improved Precision while maintaining a high Recall. Among the evaluated thresholds, **0.70** produced the highest F1-score, providing the best balance between Precision and Recall.
+
+Increasing the threshold reduces false positive predictions but may increase false negatives. Conversely, lowering the threshold increases Recall but may reduce Precision by producing more false positives.
 
 #### Which Metric Is More Important?
 
